@@ -6,6 +6,68 @@
  * Made By MaterializeCSS.com
  */
 
+ html {
+   font-family: 'Poiret One', cursive;
+   background: url("../images/background1.jpg") no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   opacity: 0.6;
+   filter: alpha(opacity=60);
+ }
+
+ #aboutv-head {
+   margin-top: 140px;
+ }
+
+ #aboutv-head h1 {
+   line-height: 50px;
+   font-size: 120px;
+   font-family: 'Stalemate', cursive;
+   text-shadow: 0 0 5px rgba(0,0,0,0.5);
+   margin: 0 0 5px 0;
+   color: white;
+ }
+
+ #aboutv-head small {
+   line-height: 50px;
+   font-size: 27px;
+   font-family: 'Poiret One', cursive;
+   text-shadow: 0 0 5px rgba(0,0,0,0.5);
+   margin: 0 0 5px 0;
+   color: white;
+ }
+
+ #aboutv-sec1 {
+   background: #f5f5f5;
+   text-align: center;
+   padding: 30px 0 15px;
+   border-top: 1px solid #e1e1e1;
+   border-bottom: 1px solid #e1e1e1;
+   margin-top: 350px;
+   opacity: 0.8;
+   filter: alpha(opacity=80);
+ }
+
+ .aboutv-logo {
+   line-height: 50px;
+   font-size: 50px;
+   font-family: 'Stalemate', cursive;
+   text-shadow: 0 0 5px rgba(0,0,0,0.5);
+   margin: 0 0 5px 0;
+   color: #7b1fa2;
+ }
+
+ .aboutv-sublogo {
+   line-height: 50px;
+   font-size: 15px;
+   font-family: 'Poiret One', cursive;
+   text-shadow: 0 0 5px rgba(0,0,0,0.5);
+   margin: 0 0 5px 0;
+   color: #7b1fa2;
+ }
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -20,7 +82,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 550px;
+  min-height: 450px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
