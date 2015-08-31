@@ -7,15 +7,21 @@ var ABOUTV = ABOUTV || {};
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
 
+    // ------------------------------------------------------------------------
+    // ------------------------------------------------------------------------
+    // Validamos que la seccion 1 este en el top
+    // Si es asi entonces mostramos el nav
+    // Si esta por debajo del top entonces ocultamos el nav
+    // ------------------------------------------------------------------------
     var distance = $('#aboutv-sec1').offset().top,
     $window = $(window);
 
     $window.scroll(function() {
         if ( $window.scrollTop() >= distance ) {
-            console.log('en la cima')
+          ABOUTV.common.showNavBar();
         }
         else if( $window.scrollTop() <= distance ) {
-            console.log('ya no en la cima')
+          ABOUTV.common.hideNavBar();
         }
     });
 

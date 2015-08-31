@@ -12,6 +12,16 @@ ABOUTV.common = {
   //      - date: Fecha que sera parseada al tipo esperado
   // --------------------------------------------------------------------------
   showNavBar: function () {
-    Materialize.toast("This is our ScrollFire Demo!", 1500 );
+    if($('#navbar').hasClass('hide')){
+      $('#navbar').removeClass('hide').addClass('navbar-fixed');
+      $('#aboutv-sec1').addClass('hide');
+    };
+  },
+
+  hideNavBar: function () {
+    if($('#navbar').hasClass('navbar-fixed')){
+      $('#navbar').removeClass('navbar-fixed').addClass('hide');
+      $('#aboutv-sec1').removeClass('hide');
+    };
   }
 };
