@@ -17,6 +17,33 @@
    filter: alpha(opacity=60);
  }
 
+ .aboutv-navbar {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: auto;
+   display: none;
+ }
+
+ .aboutv-navbar-logo {
+   line-height: 50px;
+   font-size: 30px;
+   font-family: 'Poiret One', cursive;
+   text-shadow: 0 0 5px rgba(0,0,0,0.5);
+   margin: 0 0 5px 0;
+   color: white;
+ }
+
+ .aboutv-navbar-menu {
+   line-height: 60px;
+   font-size: 18px;
+   font-family: 'Poiret One', cursive;
+   text-shadow: 0 0 5px rgba(0,0,0,0.5);
+   margin: 0 0 5px 0;
+   color: white;
+ }
+
  #bg {
     position: absolute;
     top: 0;
@@ -24,26 +51,27 @@
     width: 100%;
     height: 100%;
     z-index: -2;
-    background: #FFF;
+    background: rgba(193, 197, 65, 0.5);
     background-size: cover !important;
 }
 
  #aboutv-head {
-   margin-top: 140px;
+   margin-top: 250px;
+   display: none;
  }
 
  #aboutv-head h1 {
-   line-height: 50px;
-   font-size: 120px;
-   font-family: 'Stalemate', cursive;
-   text-shadow: 0 0 5px rgba(0,0,0,0.5);
+   line-height: 10px;
+   font-size: 80px;
+   font-family: 'Poiret One', cursive;
+   text-shadow: 0 0 0px rgba(0,0,0,0.0);
    margin: 0 0 5px 0;
    color: white;
  }
 
  #aboutv-head small {
-   line-height: 50px;
-   font-size: 27px;
+   line-height: 100px;
+   font-size: 30px;
    font-family: 'Poiret One', cursive;
    text-shadow: 0 0 5px rgba(0,0,0,0.5);
    margin: 0 0 5px 0;
