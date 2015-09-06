@@ -15,6 +15,11 @@
    background-size: cover;
    opacity: 0.7;
    filter: alpha(opacity=60);
+   color:white;
+ }
+
+ .flow-text {
+   font-family: 'Forum', cursive;
  }
 
  .aboutv-navbar {
@@ -28,7 +33,7 @@
 
  .aboutv-navbar-logo {
    line-height: 50px;
-   font-size: 30px;
+   font-size: 40px;
    font-family: 'Poiret One', cursive;
    text-shadow: 0 0 5px rgba(0,0,0,0.5);
    margin: 0 0 5px 0;
@@ -42,6 +47,24 @@
    text-shadow: 0 0 5px rgba(0,0,0,0.5);
    margin: 0 0 5px 0;
    color: white;
+ }
+
+ .aboutv-side-menu {
+   font-size: 25px;
+   color: white;
+ }
+
+ .aboutv-sidemenu-label {
+   color: #9E9E9E;
+   font-size: 17px
+ }
+
+ #navbar  {
+   display: none;
+ }
+
+ #aboutv-sec-1 {
+   display: none;
  }
 
  #bg {

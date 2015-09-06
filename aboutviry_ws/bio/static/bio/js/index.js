@@ -23,7 +23,8 @@ $( document ).ready(function() {
 					$('#mask').fadeOut(500, function(){
 						$('#bg').css('background', 'rgba(12, 0, 0, 1)');
 						$('#aboutv-head').hide();
-						$('.aboutv-navbar').show();
+						$('#navbar').show();
+						$('#aboutv-sec-1').show();
 						$('#bg').fadeIn(1309);
 					});
 					$('body').css('background-image', 'url(/static/bio/images/background2.jpg)');
